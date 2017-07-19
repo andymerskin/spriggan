@@ -4,10 +4,6 @@ The Celtic batch sprite generator. Created with love at Markit Digital.
 
 ![spriggan.gif][2]
 
-<p align="center">
-  <img src="https://github.com/docmars/spriggan/blob/master/resources/spriggan.gif" alt="Spriggan Demo Gif"/>
-</p>
-
 #### Usage
 1. Drag images, or folders of images you want to create sprites out of.
 2. Click **Generate All**.
