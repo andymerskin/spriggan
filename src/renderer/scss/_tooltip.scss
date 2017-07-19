@@ -1,0 +1,42 @@
+@import '~tachyons-sass/tachyons.scss';
+@import '~@/scss/variables';
+
+.tooltip {
+  position: relative;
+  
+  .tooltip-inner {
+    @extend .ph3, .pv2, .br2;
+    background-color: #0066cc;    
+  }
+
+  .tooltip-arrow {
+    $size: 8px;
+    position: absolute;
+    left: 50%;
+    bottom: -$size;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: $size solid #0066cc;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+  }
+
+  .tooltip-inner, .tooltip-arrow {
+    transition: all 0.3s $easeOutCubic;
+  }
+
+  &[aria-hidden=true] {
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+  }
+
+  &[aria-hidden=false] {
+    opacity: 1;
+    transition: opacity .15s;
+
+    .tooltip-inner, .tooltip-arrow {
+      transform: translateY(-15px);
+    }
+  }
+}

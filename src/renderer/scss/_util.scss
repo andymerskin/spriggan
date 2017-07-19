@@ -1,0 +1,21 @@
+@import 'variables';
+
+.spinner {
+  @extend .mr2;
+  width: 16px;
+  height: 16px;
+}
+
+// Transitions
+.fade-enter-active {
+  transition: 0.15s $easeOutCubic;
+}
+
+.fade-leave-active {
+  transition: 0.15s $easeInCubic;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

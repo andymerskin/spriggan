@@ -1,0 +1,36 @@
+@import '~tachyons-sass/tachyons.scss';
+
+.button {
+  @extend .white, .br2, .ph3, .pv2;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgba(#fff, 0.1);
+  -webkit-user-select: none;
+  cursor: default;
+
+  &:hover {
+    background-color: rgba(#fff, 0.2);
+  }
+
+  &:active {
+    background-color: rgba(#fff, 0.15);    
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(#fff, 0.4);
+  }
+}
+
+.button.button--small {
+  @extend .ph2, .pv1;
+}
+
+.button--disabled {
+  color: rgba(#fff, 0.5);
+  
+  &:hover, &:active {
+    background-color: rgba(#fff, 0.1);
+  }
+}
