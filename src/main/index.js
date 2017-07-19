@@ -28,14 +28,11 @@ function createWindow () {
     minWidth: 640,
     minHeight: 480,
     useContentSize: true,
-    // vibrancy: 'light'
     vibrancy: 'dark',
     titleBarStyle: 'hidden-inset'
   })
 
   mainWindow.loadURL(winURL)
-
-  mainWindow.webContents.openDevTools()
 
   mainWindow.on('closed', () => {
     mainWindow = null
