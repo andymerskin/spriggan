@@ -2,8 +2,8 @@
   "name": "spriggan",
   "version": "0.1.0",
   "author": "Andy Merskin <andymerskin@gmail.com>",
-  "description": "An electron-vue project",
-  "license": null,
+  "description": "The Celtic batch sprite generator",
+  "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
