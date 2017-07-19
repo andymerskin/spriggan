@@ -2,6 +2,8 @@
 
 The Celtic batch sprite generator. Created with love at Markit Digital.
 
+[Download Current Release](https://github.com/docmars/spriggan/releases/tag/0.1.0) · macOS
+
 ![spriggan.gif][2]
 
 #### Usage
