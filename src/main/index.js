@@ -1,6 +1,7 @@
 import { app, BrowserWindow } from 'electron'
 import fs from 'fs-extra'
 import path from 'path'
+import { setApplicationMenu } from './menu'
 
 /**
  * Set `__static` path to static files in production
@@ -53,6 +54,7 @@ app.on('will-finish-launching', () => {
 })
 
 app.on('ready', createWindow)
+app.on('ready', setApplicationMenu)
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
