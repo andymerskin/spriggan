@@ -1,21 +1,33 @@
-# spriggan
+# Spriggan
 
-> An electron-vue project
+> The Celtic batch sprite generator. Created with love at Markit Digital.
+
+<p align="center">
+  <img src="https://github.com/docmars/spriggan/blob/master/resources/spriggan.gif" alt="Spriggan Demo Gif"/>
+</p>
+
+#### Usage
+1. Drag images, or folders of images you want to create sprites out of.
+2. Click **Generate All**.
+3. Sing a Gaelic tune!
 
 #### Build Setup
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:9080
-npm run dev
+yarn run dev
 
 # build electron application for production
-npm run build
-
+yarn run build
 
 ```
+
+#### License
+
+MIT
 
 ---
 
