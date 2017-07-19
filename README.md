@@ -11,7 +11,7 @@ The Celtic batch sprite generator. Created with love at Markit Digital.
 2. Click **Generate All**.
 3. Sing a Gaelic tune!
 
-#### Build Setup
+#### Contributors
 
 ``` bash
 # install dependencies
