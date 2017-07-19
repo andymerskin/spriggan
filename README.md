@@ -6,8 +6,6 @@
 > - Spriten the load.™
 > - Because, the future is sprite.™
 
-Created with love at Markit Digital
-
 [Download Current Release](https://github.com/docmars/spriggan/releases/tag/0.1.0) · macOS
 
 ![spriggan.gif][2]
@@ -59,3 +57,5 @@ This project was generated with [electron-vue](https://github.com/SimulatedGREG/
 
 [1]: https://github.com/docmars/spriggan/blob/master/resources/logo.png
 [2]: https://github.com/docmars/spriggan/blob/master/resources/spriggan.gif
+
+#### Created, with love, for Markit Digital
