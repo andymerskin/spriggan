@@ -204,6 +204,10 @@ body {
   line-height: 36px;
   -webkit-app-region: drag;
   -webkit-user-select: none;
+
+  .button {
+    -webkit-app-region: no-drag;
+  }
 }
 
 .content-wrap {
