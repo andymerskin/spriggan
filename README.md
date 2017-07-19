@@ -6,7 +6,7 @@
 > - Spriten the load.™
 > - Because, the future is sprite.™
 
-Created with love at Markit Digital.
+Created with love at Markit Digital
 
 [Download Current Release](https://github.com/docmars/spriggan/releases/tag/0.1.0) · macOS
 
@@ -26,6 +26,8 @@ Created with love at Markit Digital.
 
 #### What's a sprite?
 A sprite is a map of images all compiled together so that developers don't have to include every individual image in their project separately, which causes slowdowns when a site or app loads. Loading just one image is quicker and more efficient.
+
+More about sprites: [CSS Tricks](https://css-tricks.com/css-sprites/)
 
 #### Common use cases
 - Icon libraries
