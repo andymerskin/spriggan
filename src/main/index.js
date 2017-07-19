@@ -41,6 +41,10 @@ function createWindow () {
   mainWindow.webContents.on('will-navigate', event => {
     event.preventDefault()
   })
+
+  // Toggle DevTools for debugging in production...
+  // 
+  // mainWindow.webContents.openDevTools()
 }
 
 app.on('will-finish-launching', () => {
