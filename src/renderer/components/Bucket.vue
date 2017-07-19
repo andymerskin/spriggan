@@ -17,7 +17,7 @@
     </div>
 
     <div class="bucket-body">
-      <div class="bucket-empty pa3 tc lh-copy" v-if="!self.images.length">
+      <div class="bucket-empty pa3 tc lh-copy" v-show="!self.images.length">
         <transition
           @before-enter="bucketEmptyImageBeforeEnter"
           @enter="bucketEmptyImageEnter"
@@ -27,7 +27,7 @@
         Start by dragging images<br>into the bucket
       </div>
 
-      <div class="bucket-images mt2" v-else>
+      <div class="bucket-images mt2" v-show="self.images.length">
         <ul class="bucket-images-list list">
           <li class="bucket-image-item la-title ph2 pv1 br2"
             v-for="image in self.images">
