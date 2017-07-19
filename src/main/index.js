@@ -58,9 +58,9 @@ app.on('ready', createWindow)
 app.on('ready', setApplicationMenu)
 
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
-    app.quit()
-  }
+  app.quit()
+  // if (process.platform !== 'darwin') {
+  // }
 })
 
 app.on('will-quit', () => {
