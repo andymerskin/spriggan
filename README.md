@@ -10,6 +10,15 @@
 
 ![spriggan.gif][2]
 
+#### Installation
+1. Download the current release (above)
+2. Open the DMG and drag **Spriggan** to your Applications folder
+3. Open Spriggan by right-clicking the app and clicking **Open** (this allows you to bypass macOS Sierra's new application security for unsigned apps, as I'm not a part of the Apple Developer Program)
+
+Alternatively, you can allow unsigned apps in macOS 10.11 (El Capitan) by going to **System Preferences > Security & Privacy**, then choosing **Anywhere** under "Allow apps downloaded from" in the General tab.
+
+On macOS 10.12 (Sierra), [the process is a little more involved](http://osxdaily.com/2016/09/27/allow-apps-from-anywhere-macos-gatekeeper/).
+
 #### What's it do?
 - Creates multiple image sprites in batches, in just a few clicks
 - Supports entire folder structures of images
